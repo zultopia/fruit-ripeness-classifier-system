@@ -1,0 +1,85 @@
+🍎 IMPROVED MODEL - FRUIT RIPENESS PREDICTION REPORT
+============================================================
+
+📊 PREDICTION SUMMARY
+Timestamp: 20250526_230535
+Counter: 004
+Model: Gradient Boosting
+Analysis Mode: OFF
+
+🏆 MODEL PERFORMANCE
+Test Accuracy: 0.8439 (84.4%)
+F1 Score: 0.8441 (84.4%)
+Precision: 0.8447 (84.5%)
+Recall: 0.8439 (84.4%)
+AUC Score: 0.9129 (91.3%)
+
+🎯 PREDICTION RESULTS
+Raw Prediction: matang
+Raw Confidence: 0.9888 (98.9%)
+Smoothed Prediction: matang
+Smoothed Confidence: 0.9626 (96.3%)
+History Length: 10
+
+🔧 FEATURE ENGINEERING
+Total Available Features: 12
+Selected Features: 8
+Feature Selection Method: SelectKBest
+Scaling Method: RobustScaler
+
+🔬 SELECTED FEATURES
+----------------------------------------
+            Mean S:  143.941
+             Std H:      7.0°
+             Std V:   50.739
+         Ratio S/H:    0.854
+         Ratio V/S:    1.455
+       Prop Kuning:   0.0000 (  0.0%)
+        Prop Hijau:   0.0000 (  0.0%)
+          Std Gray:   37.126
+
+📋 ALL AVAILABLE FEATURES (REFERENCE)
+----------------------------------------
+           Mean H:    168.6°
+✓          Mean S:  143.941
+           Mean V:  209.406
+✓           Std H:      7.0°
+            Std S:   30.558
+✓           Std V:   50.739
+✓       Ratio S/H:    0.854
+✓       Ratio V/S:    1.455
+        Entropy H:    3.976
+✓     Prop Kuning:   0.0000 (  0.0%)
+✓      Prop Hijau:   0.0000 (  0.0%)
+✓        Std Gray:   37.126
+
+📈 FEATURE ANALYSIS
+----------------------------------------
+Color Analysis:
+  Saturation Level: 143.9 (Moderately saturated)
+  Yellow Content: 0.0%
+  Green Content: 0.0%
+
+Texture Analysis:
+  Grayscale Variation: 37.1 (Moderate texture)
+
+🎯 CONFIDENCE ANALYSIS
+----------------------------------------
+High confidence prediction - Very reliable
+The model is very certain about this classification.
+
+📊 MODEL NOTES
+----------------------------------------
+This prediction was made using the improved ML pipeline.
+Key improvements over basic model:
+- Advanced feature selection (SelectKBest)
+- Robust scaling for outlier handling
+- Cross-validation for model selection
+- Hyperparameter tuning
+- Multiple evaluation metrics
+
+📁 GENERATED FILES
+----------------------------------------
+ROI Image: webcam_predictions/roi_004_20250526_230535.jpg
+Full Frame: webcam_predictions/frame_004_20250526_230535.jpg
+Feature Analysis: feature_analysis/analysis_004_20250526_230535.jpg

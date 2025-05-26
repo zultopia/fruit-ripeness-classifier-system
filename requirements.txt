@@ -1,0 +1,30 @@
+# Requirements for Fruit Ripeness Classification System
+# Install using: pip install -r requirements.txt
+
+# Core Data Science Libraries
+pandas>=1.3.0
+numpy>=1.21.0
+matplotlib>=3.4.0
+seaborn>=0.11.0
+
+# Machine Learning Libraries
+scikit-learn>=1.0.0
+joblib>=1.0.0
+
+# Computer Vision
+opencv-python>=4.5.0
+
+# Deep Learning (Optional but Recommended)
+tensorflow>=2.8.0
+
+# Utilities for HTTP requests
+requests>=2.25.0
+
+# Path handling
+pathlib2>=2.3.0
+
+# Progress bars (optional)
+tqdm>=4.62.0
+
+# For better plots
+plotly>=5.0.0

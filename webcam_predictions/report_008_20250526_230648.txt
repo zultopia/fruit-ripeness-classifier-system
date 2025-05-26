@@ -1,0 +1,85 @@
+🍎 IMPROVED MODEL - FRUIT RIPENESS PREDICTION REPORT
+============================================================
+
+📊 PREDICTION SUMMARY
+Timestamp: 20250526_230648
+Counter: 008
+Model: Gradient Boosting
+Analysis Mode: OFF
+
+🏆 MODEL PERFORMANCE
+Test Accuracy: 0.8439 (84.4%)
+F1 Score: 0.8441 (84.4%)
+Precision: 0.8447 (84.5%)
+Recall: 0.8439 (84.4%)
+AUC Score: 0.9129 (91.3%)
+
+🎯 PREDICTION RESULTS
+Raw Prediction: matang
+Raw Confidence: 0.8838 (88.4%)
+Smoothed Prediction: mentah
+Smoothed Confidence: 0.8356 (83.6%)
+History Length: 10
+
+🔧 FEATURE ENGINEERING
+Total Available Features: 12
+Selected Features: 8
+Feature Selection Method: SelectKBest
+Scaling Method: RobustScaler
+
+🔬 SELECTED FEATURES
+----------------------------------------
+            Mean S:  101.015
+             Std H:     10.4°
+             Std V:   56.653
+         Ratio S/H:    3.281
+         Ratio V/S:    2.045
+       Prop Kuning:   0.9207 ( 92.1%)
+        Prop Hijau:   0.0182 (  1.8%)
+          Std Gray:   54.686
+
+📋 ALL AVAILABLE FEATURES (REFERENCE)
+----------------------------------------
+           Mean H:     30.8°
+✓          Mean S:  101.015
+           Mean V:  206.569
+✓           Std H:     10.4°
+            Std S:   43.609
+✓           Std V:   56.653
+✓       Ratio S/H:    3.281
+✓       Ratio V/S:    2.045
+        Entropy H:    4.324
+✓     Prop Kuning:   0.9207 ( 92.1%)
+✓      Prop Hijau:   0.0182 (  1.8%)
+✓        Std Gray:   54.686
+
+📈 FEATURE ANALYSIS
+----------------------------------------
+Color Analysis:
+  Saturation Level: 101.0 (Moderately saturated)
+  Yellow Content: 92.1%
+  Green Content: 1.8%
+
+Texture Analysis:
+  Grayscale Variation: 54.7 (High texture variation)
+
+🎯 CONFIDENCE ANALYSIS
+----------------------------------------
+High confidence prediction - Very reliable
+The model is very certain about this classification.
+
+📊 MODEL NOTES
+----------------------------------------
+This prediction was made using the improved ML pipeline.
+Key improvements over basic model:
+- Advanced feature selection (SelectKBest)
+- Robust scaling for outlier handling
+- Cross-validation for model selection
+- Hyperparameter tuning
+- Multiple evaluation metrics
+
+📁 GENERATED FILES
+----------------------------------------
+ROI Image: webcam_predictions/roi_008_20250526_230648.jpg
+Full Frame: webcam_predictions/frame_008_20250526_230648.jpg
+Feature Analysis: feature_analysis/analysis_008_20250526_230648.jpg
